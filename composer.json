@@ -1,6 +1,6 @@
 {
     "name": "devgeniem/exhale",
-    "description" : "devgeniem/exhale is an XML library for exporting data.",
+    "description" : "Easy to use xml data exporter library designed for WordPress.",
     "keywords" : [ "XML", "XMLReader", "XMLWriter", "DOM" ],
     "homepage" : "http://github.com/devgeniem/exhale",
     "license" : "MIT",

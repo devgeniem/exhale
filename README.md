@@ -1,5 +1,5 @@
 # Exhale exporter framework
-This is easy to use xml exporter library designed for WordPress. It uses [sabre/xml](http://sabre.io/xml/) library to produce clean results.
+Easy to use xml data exporter library designed for WordPress. It uses [sabre/xml](http://sabre.io/xml/) library to produce clean results.
 
 ## Installation
 ```bash
