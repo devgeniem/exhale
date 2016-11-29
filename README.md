@@ -5,8 +5,8 @@ Easy to use xml data exporter library designed for WordPress. It uses [sabre/xml
 
 This isn't yet available in packagist so you need to add the repository as well
 ```bash
-composer config repositories.repo-name vcs https://github.com/devgeniem/exhale
-composer require devgeniem/exhale
+$ composer config repositories.repo-name vcs https://github.com/devgeniem/exhale
+$ composer require devgeniem/exhale:dev-master
 ```
 
 ## Example
@@ -36,7 +36,7 @@ $food_exporter = new Exhale\Exporter( [
     ],
 
     // Elements can also be like key -> value
-    // But beware, now you can't have two elements with same value as the other will get wiped out
+    // But beware, now you can't have two elements with same name as the other will get wiped out
     'pizza' => 'Margherita'
 ] );
 
