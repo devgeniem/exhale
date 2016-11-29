@@ -2,7 +2,10 @@
 Easy to use xml data exporter library designed for WordPress. It uses [sabre/xml](http://sabre.io/xml/) library to produce clean results.
 
 ## Installation
+
+This isn't yet available in packagist so you need to add the repository as well
 ```bash
+composer config repositories.repo-name vcs https://github.com/devgeniem/exhale
 composer require devgeniem/exhale
 ```
 
