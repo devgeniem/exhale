@@ -1,0 +1,27 @@
+{
+    "name": "devgeniem/exhale",
+    "description" : "devgeniem/exhale is an XML library for exporting data.",
+    "keywords" : [ "XML", "XMLReader", "XMLWriter", "DOM" ],
+    "homepage" : "http://github.com/devgeniem/exhale",
+    "license" : "MIT",
+    "require" : {
+        "php" : ">=7.0",
+        "sabre/xml" : ">=2.0.0"
+    },
+    "authors" : [
+        {
+            "name" : "Onni Hakala",
+            "email" : "onni.hakala@geniem.com",
+            "homepage" : "http://github.com/onnimonni",
+            "role" : "Developer"
+        }
+    ],
+    "support" : {
+        "source" : "https://github.com/devgeniem/exhale"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Exhale\\" : "lib/"
+        }
+    }
+}
