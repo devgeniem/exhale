@@ -22,7 +22,7 @@ $food_exporter = new Exhale\Exporter( [
         ]
     ],
 
-    // value have nested elements too, which will get parsed recursively
+    // You can put nested elements in value too, all of them will be parsed recursively
     [
         'name' => 'partypack',
         'attributes' => [
